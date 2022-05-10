@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    font-family: Bungee;
+    color: #FBF2C5;
+    background: #9B1D42;
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+td > a > img {
+    height: 90%;
+    width: 90%;
+
+}
+
+footer {
+    height: 250px;
+    padding: 1%;
+}
+
+.external-links {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+    padding: 1%;
+}
+
+.external-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#box-art {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#box-art > a > img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 905px) {
+    #box-art {
+        column-count: 4;
+    }
+
+}
