@@ -11,22 +11,21 @@ body {
     background: #9B1D42;
 }
 
-i {
-    color: #FBF2C5;
-}
-
 div {
-    vertical-align: middle;
+    vertical-align: top;
     display: inline-block;
     width: 30%;
     padding: 0 10px;
-    
 }
 
 .release-info > img {
-    margin-left: 30px;
-    height: 40%;
-    width: 40%;
+    margin-left: 10px;
+    height: 45%;
+    width: 45%;
+}
+
+.release-info > p {
+    margin-top: 0;
 }
 
 div > table {
