@@ -18,6 +18,10 @@ div {
     padding: 0 10px;
 }
 
+p {
+    padding: 1%;
+}
+
 .release-info > img {
     margin-left: 10px;
     height: 45%;
