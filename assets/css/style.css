@@ -32,7 +32,7 @@ p {
     margin-top: 0;
 }
 
-div > table {
+.release-info > table {
     float: right;
     margin-right: 20px;
 }
@@ -43,7 +43,7 @@ table, tr {
 }
 
 hr {
-    border-top: 1px solid #FBF2C5;
+    border-top: 1px solid #9B1D42;
     width: 100%;
     margin: 10px 0;
     clear: both;
@@ -125,9 +125,22 @@ footer {
 }
 
 #site-intro {
-    padding-top: 150px;
     padding-left: 30px;
 }
+
+#consoles {
+    margin-left: 10px;
+}
+
+#consoles td {
+    height: 150px;
+}
+
+.console-image {
+    height: inherit;
+    width: inherit;
+}
+
 
 @media screen and (max-width: 905px) {
     #box-art {
