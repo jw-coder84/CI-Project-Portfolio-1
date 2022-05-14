@@ -22,6 +22,10 @@ p {
     padding: 1%;
 }
 
+.release-info {
+    width: 20%;
+}
+
 .release-info > img {
     margin-left: 10px;
     height: 45%;
@@ -33,14 +37,15 @@ p {
 }
 
 .release-info > table {
-    float: right;
-    margin-right: 20px;
+    clear: both;
+    margin-left: 10px;
 }
 
 table, tr {
     border: 1px solid;
     border-color: inherit;
 }
+
 
 hr {
     border-top: 1px solid #9B1D42;
@@ -142,9 +147,79 @@ footer {
 }
 
 
-@media screen and (max-width: 905px) {
+@media screen and (max-width: 1200px) {
     #box-art {
         column-count: 4;
+    }
+
+}
+
+@media screen and (max-width: 905px) {
+    #box-art {
+        column-count: 2;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+
+    #site-intro {
+        padding-left: 10px;
+    }
+
+    #consoles td {
+        height: 150px;
+        width: 260px;
+    }
+
+    #consoles {
+        margin-left: 0;
+    }
+
+    .release-info > table {
+        float: left;
+        margin-right: 20px;
+    }
+
+    div > iframe {
+        float: left;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    #box-art {
+        column-count: 1;
+    }
+
+    #site-intro {
+        width: auto;
+    }
+
+    #menu {
+        letter-spacing: 1px;
+    }
+
+    div {
+        display:block;
+        width: auto;
+    }
+
+    #consoles td {
+        height: 100px;
+        width: 170px;
+        
+    }
+
+    #menu li {
+        float: left;
+        list-style-type: none;
+        
     }
 
 }
