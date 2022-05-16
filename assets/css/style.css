@@ -162,10 +162,13 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
 
+    #logo {
+        margin-left: 10px;
     }
 
     #site-intro {
@@ -186,9 +189,16 @@ footer {
         margin-right: 20px;
     }
 
-    div > iframe {
-        float: left;
+    div {
+        display:block;
+        width: auto;
     }
+
+    .release-info {
+        display: inline-block;
+        width: auto;
+    }
+
 
 }
 
@@ -201,7 +211,12 @@ footer {
         width: auto;
     }
 
+    #logo {
+        margin-left: 5px;
+    }
+
     #menu {
+        margin-left: 5px;
         letter-spacing: 1px;
     }
 
@@ -216,10 +231,27 @@ footer {
         
     }
 
+    p {
+        padding: 5%;
+    }
+
     #menu li {
-        float: left;
+        float: right;
         list-style-type: none;
         
+    }
+
+    .external-sites li {
+        display: block;
+    }
+
+    .release-info {
+        display: inline-block;
+        width: auto;
+    }
+
+    iframe {
+        width: auto;
     }
 
 }
