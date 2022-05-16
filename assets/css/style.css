@@ -147,6 +147,15 @@ footer {
     width: inherit;
 }
 
+.contact-form {
+    margin: 50px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    left: 10%;
+    padding: 30px;
+}
+
 
 @media screen and (max-width: 1200px) {
     #box-art {

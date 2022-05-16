@@ -21,7 +21,7 @@
                         <a href="#">External Sites</a>
                     </li>
                     <li>
-                        <a href="contact-us.html">Contact Us</a>
+                        <a href="#">Contact Us</a>
                     </li>
                     <li>
                         <a href="index.html" class="active">Home</a>
@@ -30,37 +30,19 @@
             </nav>
         </header>
         <hr>
-        <div id="site-intro">
-            <h3>1985 - 1991</h3>
-            <p>The Super Mario Bros. games launched on the Nintendo Entertainment System (NES). This was the first Nintendo home console
-                    known as the Famicom in Japan. This website provides information about each of the games, including gameplay footage.
-            </p>
-        </div>
-        <div>
-            <table id="consoles">
-                <tr>
-                    <th>
-                        <h6>NES</h6>
-                    </th>
-                    <th>
-                        <h6>Famicom</h6>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="console-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/NES-Console-Set.jpg/440px-NES-Console-Set.jpg">
-                    </td>
-                    <td>  
-                        <img class="console-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Nintendo-Famicom-Console-Set-FL.jpg/440px-Nintendo-Famicom-Console-Set-FL.jpg">
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <section id="box-art">
-            <a href="smb.html"><img src="assets/images/super-mario-bros.jpg"></a>
-            <a href="smb-2-jp.html"><img src="assets/images/super-mario-bros-2-jp.jpg"></a>
-            <a href="smb-2.html"><img src="assets/images/super-mario-bros-2.jpg"></a>
-            <a href="smb-3.html"><img src="assets/images/super-mario-bros-3.jpg"></a>
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+                <h2>Contact Us</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required class="text-input">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required class="text-input">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+                <label for="message">Message</label>
+                <input type="textarea" id="message" name="message_to_send" required class="text-input">
+                <input type="submit" value="Send" class="send-button">
+            </form>
         </section>
         <h4 align="center"><u>External Sites</u></h4>
         <footer>
