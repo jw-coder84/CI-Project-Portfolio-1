@@ -157,7 +157,7 @@ footer {
 
 @media screen and (max-width: 905px) {
     #box-art {
-        column-count: 2;
+        display: flex;
     }
 
     #menu {
@@ -193,6 +193,7 @@ footer {
     div {
         display:block;
         width: auto;
+        height: auto;
     }
 
     .release-info {
@@ -200,12 +201,17 @@ footer {
         width: auto;
     }
 
+    .release-info img {
+        width: 20%;
+        height: 20%;
+    }
+
 
 }
 
 @media screen and (max-width: 800px) {
     #box-art {
-        column-count: 1;
+        flex-wrap: wrap;
     }
 
     #site-intro {
