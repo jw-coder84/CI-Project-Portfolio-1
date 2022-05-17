@@ -40,6 +40,11 @@
     border-bottom: 1px solid #FBF2C5;
 
 }
+
+.active{
+    border-bottom: 1px solid #FBF2C5;
+}
+
 /* Main body */
 body {
     color: #FBF2C5;
