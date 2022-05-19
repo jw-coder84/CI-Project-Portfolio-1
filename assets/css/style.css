@@ -205,16 +205,24 @@ footer {
 }
 
 
-@media screen and (max-width: 1090px) {
-    #box-art {
-        display: flex;
+@media screen and (max-width: 1280px) {
+        #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        font-size: 100%;
+        line-height: auto;
     }
 
+}
+
+
+@media screen and (max-width: 1090px) {
     #menu {
         clear: left;
         float: left;
         margin-left: 10px;
-        margin-bottom: 20px;
+        font-size: 100%;
         line-height: 25px;
     }
 
@@ -227,7 +235,7 @@ footer {
     }
 
     #consoles td {
-        height: 150px;
+        height: auto;
         width: 260px;
     }
 
@@ -238,6 +246,7 @@ footer {
     .release-info > table {
         float: left;
         margin-right: 20px;
+        height: auto;
     }
 
     div {
@@ -249,11 +258,12 @@ footer {
     .release-info {
         display: inline-block;
         width: auto;
+        height: auto;
     }
 
     .release-info img {
         width: 20%;
-        height: 20%;
+        height: auto;
     }
 
 
