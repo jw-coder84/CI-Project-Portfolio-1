@@ -65,7 +65,7 @@ p {
 hr {
     border-top: 1px solid #9B1D42;
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
     clear: both;
 } 
 
@@ -159,10 +159,9 @@ footer {
 /* Form */
 .form-section {
     clear: left;
-    background: url("https://www.mobygames.com/images/shots/l/588620-super-mario-bros-nes-screenshot-angry-plant.png");
     background-size: contain;
     background-repeat: no-repeat; 
-    margin-left: 10%;
+    margin-left: 10px;
     height: 600px;
     
 }
@@ -173,7 +172,7 @@ footer {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    margin-left: 10px;
     padding: 30px;
 }
 
