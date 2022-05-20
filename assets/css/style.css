@@ -125,8 +125,12 @@ footer {
     padding: 1%;
 }
 
+footer > h4 {
+    text-align: center;
+}
+
 .external-sites {
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
 }
 
