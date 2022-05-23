@@ -13,7 +13,6 @@
     font-family: Bungee;
     color: #FBF2C5;
     background: #9B1D42;
-
 }
 
 #menu {
@@ -38,7 +37,6 @@
 
 #menu a:hover {
     border-bottom: 1px solid #FBF2C5;
-
 }
 
 .active{
@@ -154,7 +152,6 @@ footer > h4 {
     background-repeat: no-repeat; 
     margin-left: 10px;
     height: 440px;
-    
 }
 
 .contact-form {
@@ -287,7 +284,6 @@ footer > h4 {
     #consoles td {
         height: 100px;
         width: 170px;
-        
     }
 
     p {
@@ -297,7 +293,6 @@ footer > h4 {
     #menu li {
         float: right;
         list-style-type: none;
-        
     }
 
     .external-sites li {
@@ -311,7 +306,7 @@ footer > h4 {
 
     iframe {
         margin-left: 0;
-        width: auto%;
+        width: auto;
     }
 
 }
@@ -343,8 +338,7 @@ footer > h4 {
 
     #consoles td {
         height: 90px;
-        width: 150px;
-        
+        width: 150px; 
     }
 
     p {
@@ -355,7 +349,6 @@ footer > h4 {
         font-size: small;
         float: right;
         list-style-type: none;
-        
     }
 
     .external-sites li {
