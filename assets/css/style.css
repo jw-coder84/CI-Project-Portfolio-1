@@ -157,7 +157,7 @@ footer > h4 {
     clear: left;
     background-size: contain;
     background-repeat: no-repeat; 
-    margin-left: 10px;
+    margin: 0 30%;
     height: 440px;
 }
 
@@ -216,6 +216,10 @@ footer > h4 {
         margin-left: 30px;
         font-size: 100%;
         line-height: auto;
+    }
+
+    .form-section {
+        margin: 0 25%;
     }
 
 }
@@ -287,6 +291,12 @@ footer > h4 {
 
 }
 
+@media screen and (max-width: 900px) {
+    .form-section {
+        margin: 0 20%;
+    }    
+}
+
 @media screen and (max-width: 800px) {
     .games-list {
         margin-left: 0;
@@ -336,6 +346,10 @@ footer > h4 {
     iframe {
         margin-left: 0;
         width: auto;
+    }
+
+    .form-section {
+        margin-left: 10px;
     }
 
 }
