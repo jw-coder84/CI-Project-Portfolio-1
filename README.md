@@ -13,6 +13,8 @@ To setup a fan site for the early Super Mario Bros. games. The site is intended 
 ## Design Prototype
 The wireframe images below were created using Balsamiq Wireframes. Wireframe designs are for desktop, tablet and mobile. I added two images of the console the game appeared on for descorative purposes because landing page looked too plain. My mentor advised me that the site would be better presented with all of the content on one page. The layout of the content across all devices remained the same after it was moved from separate pages onto one. 
 
+### Wireframes
+
 ![Wireframe images](read-me-files/wireframe-1.png)
 ![Wireframe images](read-me-files/wireframe-2.png)
 ![Wireframe images](read-me-files/wireframe-3.png)
@@ -35,3 +37,16 @@ The colour scheme was chosen to match the colours of the famicom controller show
 * Text colour: #FBF2C5 
 
 
+# Features
+
+* The header includes the logo and navigation menu for accessing different sections of the page.
+
+* The site intro immediately informs the user of the sites purpose and the limited scope of the information on the site.
+
+* Each game has it's own section clearly divided. Each section contains the games box art, release dates and a video showing gameplay footage.
+
+* The following section contains a contact form.
+
+* The final section is for the footer which contains links to external Super Mario Bros sites.
+
+All of the above features are responsive for different screen sizes.
