@@ -20,4 +20,18 @@ The wireframe images below were created using Balsamiq Wireframes. Wireframe des
 ![Wireframe images](read-me-files/wireframe-5.png)
 
 ## Site Structure
-The site is one page with links to different sections. The links point to the contact form and the links to external sites.
+The site is one page with links to different sections. The links point to the contact form and the links to external sites. These sections can also be accessed by scrolling down the page.
+
+
+## Design Choices
+
+### Fonts
+The google font Bungee was used for the site logo with sans-serif as the alternate if the google font can't be loaded. The default font was used for the rest of the site. 
+
+### Colour Scheme
+The colour scheme was chosen to match the colours of the famicom controller shown near the top of the site page. The colours are a close enough match and the contrast was adjusted for clarity. 
+
+* Background colour: #9B1D42
+* Text colour: #FBF2C5 
+
+
