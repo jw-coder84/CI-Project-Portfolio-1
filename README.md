@@ -20,4 +20,4 @@ The wireframe images below were created using Balsamiq Wireframes. Wireframe des
 ![Wireframe images](read-me-files/wireframe-5.png)
 
 ## Site Structure
-The site is one page with links to different sections. 
+The site is one page with links to different sections. The links point to the contact form and the links to external sites.
