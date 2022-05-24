@@ -74,7 +74,7 @@ h3 {
 
 /* Home page */
 #site-intro {
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 #consoles {
@@ -91,7 +91,10 @@ h3 {
 }
 
 
-/* Game page */
+/* Game content */
+.games-list {
+    margin-left: 100px;
+}
 
 .release-info {
     width: 20%;
@@ -115,6 +118,10 @@ h3 {
 table, tr {
     border: 1px solid;
     border-color: inherit;
+}
+
+iframe {
+    margin-left: 20px;
 }
 
 /* footer */
@@ -193,8 +200,16 @@ footer > h4 {
     color: #FBF2C5;
 }
 
+/* 404 error page */
+#custom-error {
+    text-align: center;
+}
+
 
 @media screen and (max-width: 1280px) {
+    .games-list {
+        margin-left: 60px;
+    }
         #menu {
         clear: left;
         float: left;
@@ -205,8 +220,18 @@ footer > h4 {
 
 }
 
+@media screen and (max-width: 1120px) {
+    .games-list {
+        margin-left: 30px;
+    }
+
+}
 
 @media screen and (max-width: 1090px) {
+    .games-list {
+        margin-left: 10px;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -263,6 +288,10 @@ footer > h4 {
 }
 
 @media screen and (max-width: 800px) {
+    .games-list {
+        margin-left: 0;
+    }
+
     #site-intro {
         width: auto;
     }
