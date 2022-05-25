@@ -47,6 +47,7 @@ The colour scheme was chosen to match the colours of the famicom controller show
 
 * The following section contains a contact form.
 
-* The final section is for the footer which contains links to external Super Mario Bros sites.
+* The final section is for the footer which contains links to external Super Mario Bros sites. External links open websites in new tabs.
 
 All of the above features are responsive for different screen sizes.
+
