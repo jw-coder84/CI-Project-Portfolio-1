@@ -73,8 +73,13 @@ h3 {
 }
 
 /* Home page */
+#intro-and-image {
+    max-width: 1100px;
+    margin: auto;
+}
+
 #site-intro {
-    padding-left: 100px;
+    padding-right: 20px;
 }
 
 #consoles {
@@ -93,7 +98,9 @@ h3 {
 
 /* Game content */
 .games-list {
-    margin-left: 100px;
+    max-width: 1100px;
+    margin: auto;
+    
 }
 
 .release-info {
