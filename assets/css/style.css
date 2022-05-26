@@ -122,6 +122,11 @@ h3 {
     margin-left: 10px;
 }
 
+.release-info th {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
 table, tr {
     border: 1px solid;
     border-color: inherit;
