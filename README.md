@@ -24,7 +24,6 @@ The wireframe images below were created using Balsamiq Wireframes. Wireframe des
 ## Site Structure
 The site is one page with links to different sections. The links point to the contact form and the links to external sites. These sections can also be accessed by scrolling down the page.
 
-
 ## Design Choices
 
 ### Fonts
@@ -40,14 +39,40 @@ The colour scheme was chosen to match the colours of the famicom controller show
 # Features
 
 * The header includes the logo and navigation menu for accessing different sections of the page.
+<br>
+<details><summary><b>Header - logo and navigation image</b></summary>
 
-* The site intro immediately informs the user of the sites purpose and the limited scope of the information on the site.
+![Logo and navigation image](read-me-files/header.png)
+</details><br>
+
+* The site intro immediately informs the user of the sites purpose and the limited scope of the information on the site. Both versions of the console the games appeared on are pictured for decoration.
+<br>
+<details><summary><b>Site intro image</b></summary>
+
+![Site intro image](read-me-files/site-intro.png)
+</details><br>
 
 * Each game has it's own section clearly divided. Each section contains the games box art, release dates and a video showing gameplay footage.
+<br>
+<details><summary><b>Game info section image</b></summary>
 
-* The following section contains a contact form.
+![Game info section image](read-me-files/game-info.png)
+</details><br>
+
+* The following section contains a contact form. Clicking the send button triggers an alert, informing the user that their message has been sent. This is to acknowledge that the appropriate action has occurred.
+<br>
+<details><summary><b>Contact form image</b></summary>
+
+![Contact form image](read-me-files/contact-form.png)
+</details><br>
+
 
 * The final section is for the footer which contains links to external Super Mario Bros sites. External links open websites in new tabs.
+<br>
+<details><summary><b>External links image</b></summary>
 
+![External links image](read-me-files/external-links.png)
+</details><br>
 All of the above features are responsive for different screen sizes.
+
 
