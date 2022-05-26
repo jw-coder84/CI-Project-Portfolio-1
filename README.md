@@ -76,3 +76,37 @@ The colour scheme was chosen to match the colours of the famicom controller show
 All of the above features are responsive for different screen sizes.
 
 
+## Future Implementations
+
+* A poll so users can vote for their favourite game.
+* Create new sections for future games in the series that appeared on other consoles.
+* A section about the people at Nintendo that created the games.
+* A ranking list of the best Super Mario games across all consoles.
+
+# Technologies used
+* HTML5 - The structure of the site content.
+* CSS - The styling and positioning of the content.
+* Google Fonts - Font resource used for the logo.
+* Balsamiq - Wireframe sofware.
+* Github - Version control and host of project file repository.
+* Gitpod - Development environment.
+
+# Testing
+* Mozilla Firefox browser and it's development tools were used to test the layout of the site on other devices. Was also used to find the cause of issues in the CSS code.
+## Code validation
+The website HTML and CSS code was validated using tools from W3C.
+### HTML
+![HTML validation check](read-me-files/html-validator.png)
+
+### CSS
+![CSS validation check](read-me-files/css-validator.png)
+
+## Issues that were encountered during testing
+* I tried to use some code from the love running project for the layout of the game info div elements. This was more than what I needed. It was difficult to adapt. I looked at one of the html lessons from Code Institute and found a solution to line the div elements in a row. This was much more simple and straight forward.
+* Centralising the content moved the hr divide lines to the right, leaving a gap on the left side of the page. I wrapped each game info div element in section tags and left the hr tags outside. The hr tags there then unaffected from the centering of the game info content.
+
+## HTML Validator issues
+* I used header tags for the text in the table header (th) cells. I replaced these with strong tags to make the text bold.
+* The first row of the release info table had one th cell. The rows below had two td cells. I added a 'colspan' attribute to the th cell and game it a value of 2 so the cell would span both of the columns in the rows below.
+
+
