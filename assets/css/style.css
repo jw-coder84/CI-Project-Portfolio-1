@@ -305,6 +305,25 @@ footer > h4 {
     .form-section {
         margin: 0 20%;
     }
+
+    .release-info img {
+        margin: 120px -180px 0;
+        width: 50%;
+        height: 50%;
+    }
+
+    .games-list p {
+        margin: auto 10px;
+    }
+
+    .games-list h3 {
+        margin-left: 10px;
+    }
+
+    #smb2-jp {
+        padding-left: 10px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -354,7 +373,7 @@ footer > h4 {
     }
 
     iframe {
-        margin-left: 0;
+        margin: 0;
         width: auto;
     }
 
@@ -386,7 +405,7 @@ footer > h4 {
     }
 
     #consoles {
-        margin-left: 10px;
+        margin: auto 10px;
     }
 
     #consoles td {
@@ -414,10 +433,14 @@ footer > h4 {
         margin-bottom: 5px;
     }
 
+    .release-info img {
+        width: 65%;
+        height: 65%
+    }
+
     iframe {
-        width: 100%;
-        margin-top: 5px;
-        margin-left: 0;
+        width: auto;
+        margin: 5px 5px;
     }
 
     .form-section {
