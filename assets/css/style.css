@@ -390,8 +390,9 @@ footer > h4 {
     }
 
     #logo {
-        font-size:x-large;
+        font-size: x-large;
         margin-left: 5px;
+        line-height: 40px;
     }
 
     #menu {
@@ -435,7 +436,7 @@ footer > h4 {
 
     .release-info img {
         width: 65%;
-        height: 65%
+        height: 65%;
     }
 
     iframe {
