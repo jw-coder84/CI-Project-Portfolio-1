@@ -415,7 +415,7 @@ footer > h4 {
     }
 
     p {
-        padding: 1%;
+        padding: 5px;
     }
 
     #menu li {
@@ -435,12 +435,13 @@ footer > h4 {
     }
 
     .release-info img {
-        width: 65%;
-        height: 65%;
+        width: 90%;
+        height: 90%;
+        padding-left: 5px;
     }
 
     iframe {
-        width: auto;
+        width: 95%;
         margin: 5px 5px;
     }
 
