@@ -6,10 +6,40 @@ The purpose of the website is to provide historical information about the Super 
 
 ## [View website](https://jw-coder84.github.io/CI-Project-Portfolio-1/)
 
-## Objective
+# Contents
+* [Objective](#objective)
+* [User Experience (UX)](#user-experience-ux)
+    * [Design Prototype](#design-prototype)
+        * [Wireframes](#wireframes)
+    * [Site Structure](#site-structure)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Colour Scheme](#colour-scheme)
+* [Features](#features)
+    * [Future Implementations](#future-implementations)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+    * [Code Validation](#code-validation)
+        * [HTML](#html)
+        * [CSS](#css)
+    * [Issues that were encountered during testing](#issues-that-were-encountered-during-testing)
+    * [HTML Validator Issues](#html-validator-issues)
+* [Deployment](#deployment)
+* [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+        * [Information about the games](#information-about-games)
+        * [Images](#images)
+        * [Gameplay videos](#gameplay-videos)
+
+
+# Objective
 To setup a fan site for the early Super Mario Bros. games. The site is intended to be a source of intersting information about the series roots that would appeal to veteran and novice gamers alike. Super Mario Bros. was chosen because of it's popularity and continued success for more than 35 years. The classic games on the site are still enjoyed today, having been made available on various modern Nintendo platforms. The site will demonstrate the use for CSS and HTML, along with the importance of responsive design.
 
+[Back to contents](#contents)
+
 # User Experience (UX)
+
 ## Design Prototype
 The wireframe images below were created using Balsamiq Wireframes. Wireframe designs are for desktop, tablet and mobile. I added two images of the console the game appeared on for descorative purposes because landing page looked too plain. My mentor advised me that the site would be better presented with all of the content on one page. The layout of the content across all devices remained the same after it was moved from separate pages onto one. 
 
@@ -35,6 +65,7 @@ The colour scheme was chosen to match the colours of the famicom controller show
 * Background colour: #9B1D42
 * Text colour: #FBF2C5 
 
+[Back to contents](#contents)
 
 # Features
 
@@ -75,13 +106,14 @@ The colour scheme was chosen to match the colours of the famicom controller show
 </details><br>
 All of the above features are responsive for different screen sizes.
 
-
 ## Future Implementations
 
 * A poll so users can vote for their favourite game.
 * Create new sections for future games in the series that appeared on other consoles.
 * A section about the people at Nintendo that created the games.
 * A ranking list of the best Super Mario games across all consoles.
+
+[Back to contents](#contents)
 
 # Technologies used
 * HTML5 - The structure of the site content.
@@ -90,6 +122,8 @@ All of the above features are responsive for different screen sizes.
 * Balsamiq - Wireframe sofware.
 * Github - Version control and host of project file repository.
 * Gitpod - Development environment.
+
+[Back to contents](#contents)
 
 # Testing
 * Mozilla Firefox browser and it's development tools were used to test the layout of the site on other devices. Was also used to find the cause of issues in the CSS code.
@@ -106,14 +140,44 @@ The website HTML and CSS code was validated using tools from W3C.
 * Centralising the content moved the hr divide lines to the right, leaving a gap on the left side of the page. I wrapped each game info div element in section tags and left the hr tags outside. The hr tags there then unaffected from the centering of the game info content.
 * The were lots of adjustments and tweaking of the CSS regarding the positioning and size of the different HTML elements. This was the case for for desktop, tablet and mobile screen sizes.
 
-
 ## HTML Validator issues
 * I used header tags for the text in the table header (th) cells. This was flagged as an error because a header element e.g. \<h4\> must not be a descendant of the \<th\> element. I replaced these with strong tags to make the text bold.
 * The first row of the release info table had one th cell in one column. The rows below had two td cells in two comlumns. The rows exceeding the column count of the first was flagged as a warning. I added a 'colspan' attribute to the th cell and gave it a value of 2 so the cell would span both of the columns in the rows below.
 
+[Back to contents](#contents)
+
+# Deployment
+The website was deployed by the following steps:
+* From the GitHub repository page, click settings.
+* Click pages and under source select the main branch from the dropdown and then click save.
+* The site will then be published with the URL provided.
+
+To run from your local machine:
+* The GitHub repository can be cloned to another account, detailed [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+[Back to contents](#contents)
+
+# Credits
+## Code
+Solutions to code were found in the following:
+* Code Institute lessons and Love Running project.
+* [W3 Schools](https://www.w3schools.com) - CSS and HTML.
+
+## Content
+### Information about games
+* [nintendo life](https://www.nintendolife.com/)
+* [Moby Games](https://www.mobygames.com/)
+* [Super Mario Wiki](https://www.mariowiki.com/)
+
+### Images
+Game box art
+* [Moby Games](https://www.mobygames.com/)
+
+Console images
+* [Wikipedia search 'NES'](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)
+
+### Gameplay videos
+[NES Guide YouTube Channel](https://www.youtube.com/c/nesguide)
 
 
-
-
-
-
+[Back to contents](#contents)
