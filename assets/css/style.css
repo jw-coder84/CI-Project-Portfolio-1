@@ -110,8 +110,8 @@ h3 {
 
 .release-info > img {
     margin-left: 10px;
-    height: 45%;
-    width: 45%;
+    height: 65%;
+    width: 65%;
 }
 
 .release-info > p {
@@ -373,7 +373,7 @@ footer > h4 {
     }
 
     iframe {
-        margin: 0;
+        margin-left: 10px;
     }
 
     .form-section {
