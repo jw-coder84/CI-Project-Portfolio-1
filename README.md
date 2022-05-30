@@ -104,9 +104,16 @@ The website HTML and CSS code was validated using tools from W3C.
 ## Issues that were encountered during testing
 * I tried to use some code from the love running project for the layout of the game info div elements. This was more than what I needed. It was difficult to adapt. I looked at one of the html lessons from Code Institute and found a solution to line the div elements in a row. This was much more simple and straight forward.
 * Centralising the content moved the hr divide lines to the right, leaving a gap on the left side of the page. I wrapped each game info div element in section tags and left the hr tags outside. The hr tags there then unaffected from the centering of the game info content.
+* The were lots of adjustments and tweaking of the CSS regarding the positioning and size of the different HTML elements. This was the case for for desktop, tablet and mobile screen sizes.
+
 
 ## HTML Validator issues
-* I used header tags for the text in the table header (th) cells. I replaced these with strong tags to make the text bold.
-* The first row of the release info table had one th cell. The rows below had two td cells. I added a 'colspan' attribute to the th cell and game it a value of 2 so the cell would span both of the columns in the rows below.
+* I used header tags for the text in the table header (th) cells. This was flagged as an error because a header element e.g. \<h4\> must not be a descendant of the \<th\> element. I replaced these with strong tags to make the text bold.
+* The first row of the release info table had one th cell in one column. The rows below had two td cells in two comlumns. The rows exceeding the column count of the first was flagged as a warning. I added a 'colspan' attribute to the th cell and gave it a value of 2 so the cell would span both of the columns in the rows below.
+
+
+
+
+
 
 
