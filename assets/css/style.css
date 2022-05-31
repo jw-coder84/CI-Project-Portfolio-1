@@ -218,7 +218,7 @@ footer > h4 {
     text-align: center;
 }
 
-
+/* Desktop screen sizes */
 @media screen and (max-width: 1280px) {
     .games-list {
         margin-left: 60px;
@@ -300,7 +300,7 @@ footer > h4 {
 
 
 }
-
+/* Tablet screen sizes */
 @media screen and (max-width: 900px) {
     .form-section {
         margin: 0 20%;
@@ -382,7 +382,7 @@ footer > h4 {
 
 }
 
-
+/* Mobile screen sizes */
 @media screen and (max-width: 500px) {
     #site-intro {
         width: auto;
