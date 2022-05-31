@@ -24,6 +24,7 @@ The purpose of the website is to provide historical information about the Super 
         * [CSS](#css)
     * [Issues that were encountered during testing](#issues-that-were-encountered-during-testing)
     * [HTML Validator Issues](#html-validator-issues)
+    * [Contact Form](#contact-form)
 * [Deployment](#deployment)
 * [Credits](#credits)
     * [Code](#code)
@@ -116,12 +117,13 @@ All of the above features are responsive for different screen sizes.
 [Back to contents](#contents)
 
 # Technologies used
-* HTML5 - The structure of the site content.
-* CSS - The styling and positioning of the content.
-* Google Fonts - Font resource used for the logo.
-* Balsamiq - Wireframe sofware.
-* Github - Version control and host of project file repository.
-* Gitpod - Development environment.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - The structure of the site content.
+* [CSS](https://en.wikipedia.org/wiki/CSS) - The styling and positioning of the content.
+* [Google Fonts](https://fonts.google.com/) - Font resource used for the logo.
+* [Balsamiq](https://balsamiq.com/) - Wireframe sofware.
+* [Github](https://github.com/) - Version control and host of project file repository.
+* [Gitpod](https://gitpod.io) - Development environment.
+* [Am I Responsive](https://ui.dev/amiresponsive) - Responsive design image
 
 [Back to contents](#contents)
 
@@ -143,6 +145,16 @@ The website HTML and CSS code was validated using tools from W3C.
 ## HTML Validator issues
 * I used header tags for the text in the table header (th) cells. This was flagged as an error because a header element e.g. \<h4\> must not be a descendant of the \<th\> element. I replaced these with strong tags to make the text bold.
 * The first row of the release info table had one th cell in one column. The rows below had two td cells in two comlumns. The rows exceeding the column count of the first was flagged as a warning. I added a 'colspan' attribute to the th cell and gave it a value of 2 so the cell would span both of the columns in the rows below.
+
+## Contact form
+* I entered data into the contact form to make sure the correct validation was enforced. Mandatory fields could not be left empty and the email address need to be the correct format.
+* I sent the data to test the response that acknowledges the users action when the send button is clicked.
+
+<details>
+<summary>Form feedback</summary>
+
+![Form response image](read-me-files/form-response.png)
+</details><br>
 
 [Back to contents](#contents)
 
@@ -177,7 +189,7 @@ Console images
 * [Wikipedia search 'NES'](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)
 
 ### Gameplay videos
-[NES Guide YouTube Channel](https://www.youtube.com/c/nesguide)
+* [NES Guide YouTube Channel](https://www.youtube.com/c/nesguide)
 
 
 [Back to contents](#contents)
